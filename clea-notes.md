@@ -42,6 +42,17 @@ computerID : I think this is supposed to be your ID?
 
 Need to figure out handleServerReceived first.
 
+#### handleServerReceived
+(do params later)
+
+Does something more from handleReceived? Needs check.
+
+#### handleReceived
+(do parans later)
+
+This seems to handle received data, check if the msg is registered in quackkeys, decrypts it and returns the msg? I think it is.
+
+
 *TODO : Load it manually without `startup.lua`?*
 *TODO 2 : Quacknet only works on Wireless modem?*
 I assume Quacknet is only for wirelesses 
