@@ -24,7 +24,7 @@ Returns constant "Quacknet 1.2"
 
 #### send(target|int/string, data|any, encrypt|bool)
 target: targetting computer. int for ID, string for hostnames.
-data: Anything? tables will be serialised.
+data: Anything? tables will be serialised. It probably has limitations RedNet has, so you cannot send functions or something.
 encrypt: Whether to send encrypted msg or not.
 
 Sends message with quacknet. duh.
